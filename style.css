@@ -1,0 +1,190 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+} 
+/*Header Style*/
+.header{
+    width: 100%; 
+    height: 100vh; 
+    background-image: linear-gradient(rgba(35,35,35,0.75), rgba(35,35,35,0.5)), url(Images/Pizza.png); 
+    background-size: cover; 
+    background-position: center;
+} 
+.navbar{
+    width: 100%; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 10px;
+    background: #000;
+} 
+.navbar ul li{
+    list-style-type: none; 
+    display: inline-block;
+    margin: 0 30px;
+} 
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff; 
+    text-transform: uppercase;
+    font-size: 20px; 
+    font-weight: bold;
+} 
+.navbar ul li a:hover{
+    background-color: #eccaff; 
+    color: #7738b6; 
+    box-shadow: rgb(99 99 99 /20%) 0px 2px 8px 0px; 
+    border-radius: 25px; 
+    padding: 20px 30px;
+} 
+.content{
+    width: 100%;
+    position: absolute; 
+    top: 50%; 
+    right: 5%; 
+    text-align: right;
+    color: #fff; 
+} 
+.content h1{
+    font-size: 50px; 
+    font-family: 'Noto Serif', serif;
+} 
+.content p{ 
+    margin:20px auto;
+    font-size: 16px; 
+    font-weight: 100; 
+    line-height: 25px;
+} 
+button{
+    width: 150px; 
+    padding: 15px 0; 
+    font-weight: bold; 
+    border: 2px solid #9a53bd;
+    background: transparent; 
+    color: #ecc5ff;
+    margin: 10px 20px 10px 0;
+} 
+.btn-order{
+    background-color: #9a53bd;
+}
+button:hover{
+    background-color: #9a53bd;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+} 
+.btn-order:hover{
+    background: transparent;
+} 
+/*Content Style*/
+.main-content{
+    background-color: #ebe2ff;
+    width: 100vw;
+} 
+.main-content h1{
+    text-align: center;
+    padding: 30px 0 0; 
+    font-size: 2.2em;
+} 
+.main-content hr{
+    width: 10%; 
+    margin: auto; 
+    border-top: 3px solid violet;
+}
+.content-section{ 
+    height: 600px;
+    padding: 0px 80px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+} 
+.content-section .col{
+    text-align: center; 
+    margin: 0 20px;
+} 
+.pic{
+    border-radius: 80px; 
+    width: 150px; 
+    height: 150px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+.content-section h3{
+    margin: 30px 0; 
+    text-transform: uppercase;
+    font-size: 1.5em;
+} 
+.content-section p{
+    font-size: 18px;
+} 
+.content-section .col p{
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 18px; 
+    line-height: 21px;
+} 
+/*Footer2 Style*/ 
+.footer{
+    /*position: absolute;
+    bottom: 0; 
+    left: 0; 
+    right: 0;*/
+    width: 100%; 
+    background-color: #4f0073;
+    color: #fff;
+    padding: 30px 0; 
+    display: flex;
+    justify-content: center;
+} 
+.footer div{
+    text-align: center;
+} 
+.footer div h3{
+    margin-bottom: 30px;
+    letter-spacing: 1px; 
+    font-weight: 400;
+} 
+.footer .col-1 a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    text-align: left; 
+    margin-bottom: 5px;
+} 
+.footer .col-2{
+    flex-grow: 0.5;
+} 
+form input{
+    width: 400px; 
+    height: 40px; 
+    border-radius: 5px; 
+    text-align: center; 
+    border: none; 
+    outline: none; 
+    margin-bottom: 40px;
+} 
+form button{
+    padding: 10px 30px; 
+    border: 2px solid #cd62ff;
+    border-radius: 50px; 
+    background: transparent; 
+    color: #fff;
+    font-size: 15px;
+} 
+.social-links{
+    margin-top: 30px; 
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 1rem 0 3rem 0;
+} 
+.social-links i{
+    font-size: 22px; 
+    margin: 0 10px 0;
+} 
+.social-links a{
+    text-decoration: none; 
+    color: #fff; 
+} 
+.social-links a:hover{
+    color: #db8cff;
+} 
